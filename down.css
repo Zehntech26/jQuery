@@ -1,0 +1,13 @@
+.btn-down {
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}

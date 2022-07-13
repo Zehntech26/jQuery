@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css" />
+    <script src="/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/arrow.css" />
+  </head>
+
+  <body>
+    <div class="download-btn">
+      <div class="btn__circle">
+        <button class="download btn-down">
+          <h1 style="color: white">Download</h1>
+        </button>
+        <svg width="140" height="140">
+          <!-- <circle r="60" cx="70" cy="70" class='download' stroke-width="10">
+                </circle>-->
+
+          <!--<rect x="50" y="20" rx="20" ry="20" class="download btn-down" stroke-width="10" />-->
+          <circle
+            r="60"
+            cx="70"
+            cy="70"
+            class="circle"
+            stroke-width="10"
+          ></circle>
+
+          <circle
+            class="bar"
+            stroke-width="5"
+            r="60"
+            cx="70"
+            cy="70"
+            fill="transparent"
+            stroke="red"
+            stroke-dasharray="565.48"
+            stroke-dashoffset="565.48"
+          ></circle>
+        </svg>
+      </div>
+      <div class="btn__stop btn--icon">
+        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+      </div>
+      <div class="btn__done btn--icon">
+        <i class="fa fa-check" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <script src="/Bootstrap/jquery-3.6.0.min.js"></script>
+    <script src="/arrow.js"></script>
+  </body>
+</html>
